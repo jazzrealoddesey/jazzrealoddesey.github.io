@@ -418,8 +418,10 @@ body{
   .service-card{
     margin: 10px;
   }
-  .services h1{
-    font-size: 3rem;
+  .services h1,
+  .skills h1,
+  .project h1{
+    font-size: 3rem !important;
   }
 }
 @media screen and (min-width: 1024px) {
